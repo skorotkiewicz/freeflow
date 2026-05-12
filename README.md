@@ -21,18 +21,10 @@ It never reads a word. It reads shape.
 
 ---
 
-## Install
-
-```sh
-npm install freeflow
-```
-
----
-
 ## Usage
 
 ```js
-const { transform, analyse } = require('freeflow');
+const { transform, analyse } = require('./freeflow');
 
 const result = transform(text);
 ```
