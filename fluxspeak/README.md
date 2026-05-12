@@ -61,14 +61,15 @@ console.log(flowed);
 ### Output example:
 
 ```
-two roads diverged in a yellow wood
+two roads diverged in a yellow
 
-and sorry I could not travel both...
+wood, and sorry i could
 
-and be one traveler long I stood
+not travel both and be . . .
 
-and looked down one as far as I could
-to where it bent in the undergrowth...
+one traveler, long...
+
+i stood... . . .
 ```
 
 ---
@@ -94,7 +95,7 @@ const result = FluxSpeak.transform(text, options);
 ## Advanced Example
 
 ```js
-const FluxSpeak = require('fluxspeak');
+const FluxSpeak = require('./fluxspeak');
 
 const script = "Hello everyone thank you for coming today we are going to explore something truly magical";
 
@@ -108,10 +109,13 @@ console.log(natural);
 
 **Result:**
 ```
-hello everyone thank you for coming today
+Hello everyone thank you
 
-we are going to explore something
-truly magical...
+For coming today we
+
+are going to explore something truly . . .
+
+magical –
 ```
 
 ---
