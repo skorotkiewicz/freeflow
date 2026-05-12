@@ -1,0 +1,10 @@
+{
+  "name": "freely",
+  "version": "1.0.0",
+  "description": "Transform text into free-thought notation — read like you speak freely",
+  "main": "freely.js",
+  "bin": { "freely": "./cli.js" },
+  "scripts": { "demo": "node demo.js" },
+  "keywords": ["text", "poetry", "notation", "typography", "speech"],
+  "license": "MIT"
+}
