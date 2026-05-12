@@ -1,0 +1,15 @@
+{
+  "name": "freeflow",
+  "version": "1.0.0",
+  "description": "Makes text read as if the words were already your own thoughts.",
+  "main": "freeflow.js",
+  "exports": {
+    ".": "./freeflow.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["readability", "text", "flow", "rhythm", "typography", "nlp"],
+  "author": "",
+  "license": "MIT"
+}
